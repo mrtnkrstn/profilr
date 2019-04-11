@@ -40,5 +40,12 @@ namespace Profilr.Droid
         public void OnActivityStopped(Activity activity)
         {
         }
+
+        public override void OnCreate()
+        {
+            base.OnCreate();
+
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("ODgzNjhAMzEzNzJlMzEyZTMwSW15V1B0aGdvdE5tT3ZkWFhBUktKYitsV0hON0doWXp3Y0ZKdkMxVHJ2az0=");
+        }
     }
 }

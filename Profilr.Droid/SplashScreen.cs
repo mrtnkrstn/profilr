@@ -1,6 +1,7 @@
 ﻿using System;
 using Android.App;
 using Android.Content.PM;
+using Android.OS;
 using MvvmCross.Platforms.Android.Views;
 
 namespace Profilr.Droid
@@ -14,6 +15,11 @@ namespace Profilr.Droid
     {
         public SplashScreen()
         {
+        }
+
+        public override void OnCreate(Bundle savedInstanceState, PersistableBundle persistentState)
+        {
+            base.OnCreate(savedInstanceState, persistentState);
         }
     }
 }
