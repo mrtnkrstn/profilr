@@ -70,11 +70,11 @@ namespace Profilr.Droid.Activities
             menuItem1.ItemTapped += MenuItem1_ItemTapped;
             _radialMenu.Items.Add(menuItem1);
 
-            var menuItem2 = CreateRadialMenuItem(Resource.Drawable.item2);
+            var menuItem2 = CreateRadialMenuItem(Resource.Drawable.simpsons_logo);
             menuItem2.ItemTapped += MenuItem2_ItemTapped;
             _radialMenu.Items.Add(menuItem2);
 
-            var menuItem3 = CreateRadialMenuItem(Resource.Drawable.item1);
+            var menuItem3 = CreateRadialMenuItem(Resource.Drawable.bitcoin);
             menuItem3.ItemTapped += MenuItem3_ItemTapped;
             _radialMenu.Items.Add(menuItem3);
 

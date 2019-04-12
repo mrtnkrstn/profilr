@@ -1,7 +1,10 @@
 ﻿using System;
+using Acr.UserDialogs;
 using Android.App;
 using Android.OS;
 using Android.Runtime;
+using MvvmCross;
+using MvvmCross.Platforms.Android;
 using MvvmCross.Platforms.Android.Views;
 using Profilr.Core;
 
@@ -46,6 +49,8 @@ namespace Profilr.Droid
             base.OnCreate();
 
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("ODgzNjhAMzEzNzJlMzEyZTMwSW15V1B0aGdvdE5tT3ZkWFhBUktKYitsV0hON0doWXp3Y0ZKdkMxVHJ2az0=");
+
+            UserDialogs.Init(() => Mvx.IoCProvider.Resolve<IMvxAndroidCurrentTopActivity>().Activity);
         }
     }
 }

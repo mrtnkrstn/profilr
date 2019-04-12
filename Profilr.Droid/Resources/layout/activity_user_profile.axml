@@ -9,17 +9,17 @@
 	<ffimageloading.cross.MvxCachedImageView
         local:MvxBind="ImagePath 'res:bart_simpson_profile.png'"
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
+		android:layout_height="400dp"
 		android:id="@+id/profileImageView" />
 	<TextView
 		android:text="Name: Bart Simpson"
-		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:id="@+id/textView1" />
 	<TextView
-		android:text="Medium Text"
-		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="Eat my shorts!"
+		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:id="@+id/textView2" />

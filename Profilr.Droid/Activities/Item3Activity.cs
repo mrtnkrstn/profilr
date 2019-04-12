@@ -4,7 +4,7 @@ using Profilr.Core.ViewModels;
 
 namespace Profilr.Droid.Activities
 {
-    [Activity(Label = "Activity 3", Theme = "@style/AppTheme")]
+    [Activity(Label = "Cryptos", Theme = "@style/AppTheme")]
     public class Item3Activity : BaseAppCompatActivity<Item3ViewModel>
     {
         protected override void OnCreate(Bundle bundle)

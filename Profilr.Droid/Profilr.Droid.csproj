@@ -73,6 +73,7 @@
     <Compile Include="Activities\Item2Activity.cs" />
     <Compile Include="Activities\Item3Activity.cs" />
     <Compile Include="Activities\Item4Activity.cs" />
+    <Compile Include="LinkerPleaseInclude.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -104,7 +105,6 @@
     <AndroidResource Include="Resources\layout\activity_landing.axml" />
     <AndroidResource Include="Resources\drawable\item1.png" />
     <AndroidResource Include="Resources\values\attrs.xml" />
-    <AndroidResource Include="Resources\layout\activity_user_profile.axml" />
     <AndroidResource Include="Resources\layout\toolbar.xml" />
     <AndroidResource Include="Resources\drawable\item4.png" />
     <AndroidResource Include="Resources\drawable\item3.png" />
@@ -117,6 +117,11 @@
     <AndroidResource Include="Resources\layout\activity_item3.axml" />
     <AndroidResource Include="Resources\layout\activity_item4.axml" />
     <AndroidResource Include="Resources\drawable\bug.png" />
+    <AndroidResource Include="Resources\layout\activity_user_profile.axml" />
+    <AndroidResource Include="Resources\layout\listitem_quote.axml" />
+    <AndroidResource Include="Resources\drawable\simpsons_logo.jpg" />
+    <AndroidResource Include="Resources\layout\listitem_price.axml" />
+    <AndroidResource Include="Resources\drawable\bitcoin.png" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
@@ -143,6 +148,21 @@
     </PackageReference>
     <PackageReference Include="Com.Airbnb.Android.Lottie">
       <Version>2.6.0</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v7.CardView">
+      <Version>28.0.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="MvvmCross.Droid.Support.V7.RecyclerView">
+      <Version>6.2.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v7.RecyclerView">
+      <Version>28.0.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Acr.UserDialogs">
+      <Version>7.0.4</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
